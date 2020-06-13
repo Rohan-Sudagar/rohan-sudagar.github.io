@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hotel Booking Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hotel Booker</h1>
+    <form action="destination.html" method="GET">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Name</label><input type="text" name="username" id="name" required autofocus
+                placeholder="Your Name">
+
+            <label for="email">Email</label> <input type="text" name="email" id="email" required
+                placeholder="Your Email">
+            <label for="phone">Phone:</label> <input type="tel" name="phone" required
+                placeholder="Please enter in your phone number">
+            <select name="country" id="Id" required>
+                <label for="Id">Where Do You Live:</label>
+                <option value=""> </option>
+                <option value="US">US</option>
+                <option value="UK">UK</option>
+                <option value="India">India</option>
+
+            </select>
+
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Booking Details:</legend>
+            <label for="date">Start Date</label><input id="date" type="date" name="date" min="2020-05-29">
+            <label for="date">End Date</label><input id="day" type="date" name="date" min="2020-05-29">
+            <label for="numberOfGuests">Number Of Guests</label><input type="number" name="numberOfGuests" min="1"
+                max="1" required>
+            <label for="numberOfInfants">Number Of Toddlers</label><input type="number" name="numberOfInfants" min="0"
+                max="1" required>
+            <p>Would you like to order room service?</p>
+            <input type="radio" name="yesRoomService" value="Yes">Yes
+            <input type="radio" name="noRoomService" value="no">No
+            <button type="submit">Submit</button>
+            <br>
+
+        </fieldset>
+       
+    </form>
+</body>
+
+</html>
