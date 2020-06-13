@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost:8889','root','root');
+$con = mysql_connect('localhost', 'root', 'root')
 if(!$con){
     echo 'Not Connected To Server';
 }
