@@ -24,7 +24,7 @@ if(!mysqli_query($con,$sql))
 else{
     $msg = "Room Confirmed. Please Come To 1420 South Rug St For Your Room";
 
-    require_once 'PHPMailer/PHPMailerAutoload.php';
+    require_once 'PHPMailerAutoload.php';
 
 
 $mail = new PHPMailer();
@@ -38,7 +38,7 @@ $mail->Username = 'rohansudagar@gmail.com';
 $mail->Password = 'tuesday2012';
 $mail->SetFrom('rohansudagar@gmail.com');
 $mail->Subject = 'Your Hotel Stay';
-$mail->Body = 'You Confirmed A Stay At Rohan Hotel At <a href="http://localhost:3000/forms.html">http://localhost:3000/forms.html</a> Please Come To 1420 South Rug St For Your Room ';
+$mail->Body = 'You Confirmed A Stay At Rohan Hotel At <a href="https://rohan-sudagar.github.io">https://rohan-sudagar.github.io</a> Please Come To 1420 South Rug St For Your Room ';
 
 $mail->AddAddress($_POST['email']);
 $mail->Send();
