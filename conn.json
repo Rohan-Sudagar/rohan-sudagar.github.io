@@ -1,0 +1,19 @@
+[
+{"type":"header","version":"4.9.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"Hotel_Booking_Database"},
+{"type":"table","name":"Hotel_Reservations","database":"Hotel_Booking_Database","data":
+[
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-05-30","To_Date":"2020-05-31","Room_Number":"763","Room_Service":""},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-06","To_Date":"2020-06-11","Room_Number":"763","Room_Service":""},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-05","To_Date":"2020-06-05","Room_Number":"763","Room_Service":""},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-05","To_Date":"2020-06-05","Room_Number":"763","Room_Service":""},
+{"Name":"sudagar dhandapani","Email":"dsudagar@gmail.com","From_Date":"2020-05-30","To_Date":"2020-05-31","Room_Number":"763","Room_Service":"Yes"},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-06","To_Date":"2020-06-09","Room_Number":"763","Room_Service":"Yes"},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-05","To_Date":"2020-06-06","Room_Number":"763","Room_Service":""},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-05","To_Date":"2020-06-06","Room_Number":"763","Room_Service":""},
+{"Name":"Rohan Sudagar","Email":"rohansudagar@gmail.com","From_Date":"2020-06-06","To_Date":"2020-06-10","Room_Number":"763","Room_Service":""},
+{"Name":"sudagar dhandapani","Email":"dsudagar@gmail.com","From_Date":"2020-06-06","To_Date":"2020-06-10","Room_Number":"763","Room_Service":""},
+{"Name":"sudagar dhandapani","Email":"dsudagar@gmail.com","From_Date":"2020-05-30","To_Date":"2020-05-31","Room_Number":"763","Room_Service":"Yes"}
+]
+}
+]
