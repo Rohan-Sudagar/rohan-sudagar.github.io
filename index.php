@@ -1,5 +1,5 @@
 <?php
-
+require_once 'PHPMailerAutoload.php';
 
 $NAME = $_GET['name'];
 $EMAIL = $_GET['email'];
