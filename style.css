@@ -1,0 +1,17 @@
+body {
+    background-color: #1face1;
+    text-align: center;
+    margin-top: 50px;
+}
+
+img#myimage {
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+}
+
+img#certification {
+    margin-right: 300px;
+    width: 100px;
+    height: 100px;
+}
